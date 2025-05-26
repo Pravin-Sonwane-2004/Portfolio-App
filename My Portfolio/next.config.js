@@ -30,7 +30,7 @@ const baseConfig = {
 
 let config = baseConfig;
 if (isNetlify) {
-  const { withNetlify } = require('@netlify/next');
+  const withNetlify = require('@netlify/next');
   config = withNetlify(baseConfig);
 }
 
