@@ -28,10 +28,7 @@ const baseConfig = {
   },
 };
 
-let config = baseConfig;
-if (isNetlify) {
-  const withNetlify = require('@netlify/next');
-  config = withNetlify(baseConfig);
-}
+const withNetlify = require('@netlify/next');
 
-module.exports = config;
+// Fix: Call as a function, not as a constructor
+module.exports = isNetlify ? withNetlify()(baseConfig) : baseConfig;
