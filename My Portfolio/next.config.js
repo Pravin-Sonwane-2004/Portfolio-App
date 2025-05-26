@@ -28,6 +28,10 @@ const baseConfig = {
   },
 };
 
-module.exports = isNetlify
-  ? require('@netlify/next')(baseConfig)
-  : baseConfig;
+let config = baseConfig;
+if (isNetlify) {
+  const withNetlify = require('@netlify/next');
+  config = withNetlify(baseConfig);
+}
+
+module.exports = config;
