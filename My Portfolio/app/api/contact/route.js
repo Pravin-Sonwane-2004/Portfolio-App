@@ -33,7 +33,6 @@ const generateEmailTemplate = (name, email, userMessage) => `
 `;
 
 // Helper function to send an email via Nodemailer
-// Netlify Functions do not support nodemailer/SENDMAIL out-of-the-box.
 // You should use a third-party email API (SendGrid, EmailJS, etc.) instead.
 // async function sendEmail(payload, message) {
 //   const { name, email, message: userMessage } = payload;
@@ -82,7 +81,7 @@ export async function POST(request) {
     if (telegramSuccess /* && emailSuccess */) {
       return NextResponse.json({
         success: true,
-        message: 'Message sent successfully! (Email sending is disabled on Netlify Functions)',
+        message: 'Message sent successfully!',
       }, { status: 200 });
     }
 
