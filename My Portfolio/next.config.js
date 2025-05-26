@@ -1,6 +1,9 @@
-const path = require('path')
- 
-module.exports = {
+/** @type {import('next').NextConfig} */
+const path = require('path');
+
+const isNetlify = process.env.NETLIFY === 'true';
+
+const baseConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
@@ -23,4 +26,8 @@ module.exports = {
       },
     ],
   },
-}
+};
+
+module.exports = isNetlify
+  ? require('@netlify/next')(baseConfig)
+  : baseConfig;
