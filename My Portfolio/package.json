@@ -7,8 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "netlify deploy --build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.1",
@@ -26,7 +25,6 @@
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "@netlify/next": "latest",
     "@tailwindcss/postcss": "^4.1.7",
     "autoprefixer": "latest",
     "eslint": "latest",

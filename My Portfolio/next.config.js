@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const path = require('path');
 
-const isNetlify = process.env.NETLIFY === 'true';
-
-const baseConfig = {
+module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
@@ -27,8 +25,3 @@ const baseConfig = {
     ],
   },
 };
-
-const withNetlify = require('@netlify/next');
-
-// Fix: Call as a function, not as a constructor
-module.exports = isNetlify ? withNetlify()(baseConfig) : baseConfig;
