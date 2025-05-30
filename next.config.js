@@ -2,12 +2,10 @@
 const path = require('path');
 
 const nextConfig = {
-  output: 'export', // 👈 Required for static site
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
-    unoptimized: true, // 👈 Required for static export
     remotePatterns: [
       {
         protocol: 'https',
