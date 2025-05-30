@@ -118,15 +118,16 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Spring Boot</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">React + Vite</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Microservices</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">REST API</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySQL</span>
+                <span className="text-amber-300">Postgress</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
+              
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
