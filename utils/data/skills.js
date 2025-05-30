@@ -4,9 +4,9 @@ export const skillsData = [
   'Spring Boot',
   'Javascript',
   'REST API',
-  'Graphql',
-  'Azure',
-  'GCP',
+  // 'Graphql',
+  // 'Azure',
+  // 'GCP',
   'HTML',
   'CSS',
   'React',
@@ -14,8 +14,10 @@ export const skillsData = [
   'MySQL',
   'PostgreSQL',
   'Git',
-  'AWS',
-  'Docker',
+  'Microservices',
+  'Vue',
+  // 'AWS',
+  // 'Docker',
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

@@ -6,7 +6,7 @@ export const personalData = {
   email: 'pravinson222@gmail.com',
   phone: '+91 9322559215',
   address: 'jalna, maharastra, india ',
-  github: 'https://github.com/Pravin2004P',
+  github: 'https://github.com/Pravin-Sonwane-2004',
   facebook: 'https://www.facebook.com/',
   linkedIn: 'https://www.linkedin.com/in/pravin-sonwane-079a621ba/',
   twitter: 'https://x.com/PravinS99554732',
