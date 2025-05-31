@@ -31,14 +31,14 @@
   "devDependencies": {
     "@netlify/next": "latest",
     "autoprefixer": "latest",
-    "eslint": "latest",
+    "eslint": "^8.57.1",
     "eslint-config-next": "15.1.1",
     "gh-pages": "^6.3.0",
     "postcss": "latest",
     "sass": "^1.69.5",
     "tailwindcss": "latest"
   },
-"engines": {
-  "node": "20.x"
-}
+  "engines": {
+    "node": "20.x"
+  }
 }
