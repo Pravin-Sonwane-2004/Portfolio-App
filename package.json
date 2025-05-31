@@ -38,7 +38,7 @@
     "sass": "^1.69.5",
     "tailwindcss": "latest"
   },
-  "engines": {
-    "node": "18.x"
-  }
+"engines": {
+  "node": "20.x"
+}
 }
